@@ -1,16 +1,18 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Jorge González Gómez — Backend & Automatizaciones</title>
+<title>Jorge González Gómez | Backend Java Developer</title>
+<meta name="description" content="Jorge González Gómez - Backend Java developer and DAM student at Instituto Nebrija (Madrid). Spring Boot, Spring Security, JPA, REST APIs. Open to internships from February 2027.">
 <style>
   :root {
     --bg: #0d1117;
-    --bg-card: #161b22;
+    --card: #161b22;
     --text: #e6edf3;
-    --text-dim: #8b949e;
+    --dim: #8b949e;
     --accent: #58a6ff;
+    --green: #3fb950;
     --border: #30363d;
   }
   * { box-sizing: border-box; }
@@ -18,60 +20,118 @@
     margin: 0;
     background: var(--bg);
     color: var(--text);
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     line-height: 1.6;
   }
-  .wrap { max-width: 680px; margin: 0 auto; padding: 64px 24px; }
-  h1 { font-size: 1.9rem; margin-bottom: 4px; }
-  .tagline { color: var(--accent); font-family: "SFMono-Regular", Consolas, monospace; font-size: 1rem; margin-bottom: 32px; }
-  p { color: var(--text-dim); }
-  .card { background: var(--bg-card); border: 1px solid var(--border); border-radius: 8px; padding: 20px 24px; margin-bottom: 20px; }
-  .skills { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
-  .skill { background: var(--bg); border: 1px solid var(--border); border-radius: 6px; padding: 4px 10px; font-size: 0.85rem; font-family: monospace; color: var(--text); }
-  .links a { color: var(--accent); text-decoration: none; margin-right: 16px; font-weight: 600; }
-  .links a:hover { text-decoration: underline; }
-  footer { margin-top: 40px; color: var(--text-dim); font-size: 0.85rem; }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 72px 24px 48px; }
+  header { margin-bottom: 40px; }
+  h1 { font-size: 2.2rem; margin: 0 0 6px; letter-spacing: -0.02em; }
+  .role { color: var(--accent); font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: 1rem; margin: 0 0 16px; }
+  .status {
+    display: inline-block; font-size: 0.85rem; color: var(--green);
+    border: 1px solid rgba(63,185,80,.4); background: rgba(63,185,80,.08);
+    border-radius: 999px; padding: 3px 12px; margin-bottom: 20px;
+  }
+  .links a {
+    display: inline-block; color: var(--text); text-decoration: none; font-size: 0.9rem; font-weight: 600;
+    border: 1px solid var(--border); border-radius: 6px; padding: 6px 14px; margin: 0 8px 8px 0;
+  }
+  .links a:hover { border-color: var(--accent); color: var(--accent); }
+  h2 {
+    font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--dim);
+    margin: 44px 0 14px; padding-bottom: 8px; border-bottom: 1px solid var(--border);
+  }
+  p { color: var(--dim); margin: 0 0 12px; }
   strong { color: var(--text); }
+  .card { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 20px 22px; margin-bottom: 14px; }
+  .card h3 { margin: 0 0 2px; font-size: 1.05rem; }
+  .meta { color: var(--dim); font-size: 0.85rem; margin-bottom: 10px; }
+  .card ul { margin: 0; padding-left: 18px; color: var(--dim); }
+  .card li { margin-bottom: 4px; }
+  .tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }
+  .tag {
+    font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: 0.78rem;
+    color: var(--accent); background: rgba(88,166,255,.08); border: 1px solid rgba(88,166,255,.25);
+    border-radius: 4px; padding: 2px 8px;
+  }
+  .skills { display: grid; grid-template-columns: 190px 1fr; gap: 8px 16px; }
+  .skills dt { color: var(--text); font-weight: 600; font-size: 0.92rem; }
+  .skills dd { margin: 0; color: var(--dim); font-size: 0.92rem; }
+  @media (max-width: 560px) { .skills { grid-template-columns: 1fr; } .skills dd { margin-bottom: 8px; } }
+  footer { margin-top: 48px; color: var(--dim); font-size: 0.85rem; }
 </style>
 </head>
 <body>
   <div class="wrap">
-    <h1>Jorge González Gómez</h1>
-    <div class="tagline">Java y Python · automatizaciones e integraciones</div>
-
-    <div class="card">
-      <p>Estudio 2º de Desarrollo de Aplicaciones Multiplataforma en Nebrija, en Madrid. Donde más cómodo me siento es con Java y Python, sobre todo automatizando cosas que a la gente le quitan tiempo: sacar datos de webs, ordenar Excels, conectar hojas de Google con otras herramientas o montar avisos automáticos. También he trabajado con bases de datos como PostgreSQL y MongoDB.</p>
-      <p>Te lo digo claro: estoy empezando y todavía no tengo experiencia laboral. Lo que sí tengo es base técnica, ganas de hacer las cosas bien y curiosidad. Me gusta aprender, así que no me cierro a otras áreas del desarrollo si un proyecto lo necesita.</p>
-    </div>
-
-    <div class="card">
-      <strong>Con qué trabajo</strong>
-      <div class="skills">
-        <span class="skill">Java</span>
-        <span class="skill">Python</span>
-        <span class="skill">SQL</span>
-        <span class="skill">PostgreSQL</span>
-        <span class="skill">MongoDB</span>
-        <span class="skill">JUnit</span>
-        <span class="skill">Web scraping</span>
-        <span class="skill">Google Sheets</span>
-        <span class="skill">APIs REST</span>
-        <span class="skill">Git</span>
+    <header>
+      <h1>Jorge González Gómez</h1>
+      <p class="role">Backend Java Developer &middot; Spring Boot &middot; Spring Security &middot; REST APIs</p>
+      <div class="status">Open to internships (500 h) from February 2027</div>
+      <div class="links">
+        <a href="mailto:jorge.gonzalez.gomez.dev@gmail.com">Email</a>
+        <a href="https://www.linkedin.com/in/jorge-gonz%C3%A1lez-g%C3%B3mez-dev/">LinkedIn</a>
+        <a href="https://github.com/jorgegonzalezgomezdev">GitHub</a>
       </div>
-    </div>
+    </header>
 
+    <h2>About</h2>
+    <p>I'm a second-year student of <strong>Multiplatform Application Development (DAM)</strong> at Instituto Nebrija de Formación Profesional in Madrid, focused on <strong>backend development with Java</strong>.</p>
+    <p>I build REST APIs with <strong>Spring Boot</strong>, persistence with <strong>JPA/Hibernate</strong> and security with <strong>Spring Security</strong>, and I have experience with concurrent programming and network communication with sockets. I work with Git the way real teams do: feature branches, pull requests with code review and continuous integration.</p>
+
+    <h2>Education</h2>
     <div class="card">
-      <strong>Ahora mismo</strong>
-      <p style="margin-bottom:0">Estoy construyendo mi primer proyecto demo: un programa que vigila precios en tiendas online, guarda el histórico en Google Sheets y avisa por Telegram cuando algo cambia. Cuando esté listo, lo verás aquí con su código.</p>
+      <h3>Higher Technician in Multiplatform Application Development (DAM)</h3>
+      <div class="meta">Instituto Nebrija de Formación Profesional, Madrid &middot; 2025 - 2027</div>
+      <p style="margin:0">Second-year modules: Data Access, Services and Process Programming, User Interface Development and Enterprise Management Systems (ERP).</p>
     </div>
 
-    <div class="links">
-      <a href="mailto:jorge.gonzalez.gomez.dev@gmail.com">Email</a>
-      <a href="https://www.linkedin.com/in/jorge-gonz%C3%A1lez-g%C3%B3mez-dev/">LinkedIn</a>
-      <a href="https://github.com/jorgegonzalezgomezdev">GitHub</a>
+    <h2>Projects</h2>
+    <div class="card">
+      <h3>VulnFollowUp</h3>
+      <div class="meta">Team project at Nebrija (3 people) &middot; 2026 - 2027</div>
+      <ul>
+        <li>Vulnerability tracking platform: Spring Boot + PostgreSQL backend consumed by a web client and an Android app.</li>
+        <li>I build the web client and its integration with the backend REST API.</li>
+        <li>Professional workflow: pull requests with two-reviewer approval, Conventional Commits and documented technical decisions.</li>
+      </ul>
+      <div class="tags"><span class="tag">Java</span><span class="tag">Spring Boot</span><span class="tag">PostgreSQL</span><span class="tag">Angular</span><span class="tag">Ionic</span><span class="tag">Android</span></div>
+    </div>
+    <div class="card">
+      <h3>Spring Boot REST API</h3>
+      <div class="meta">Data Access module, Nebrija &middot; 2026</div>
+      <ul>
+        <li>REST service with CRUD operations and persistence in a relational database through JPA.</li>
+        <li>Endpoints secured with Spring Security: user authentication and role-based access control.</li>
+      </ul>
+      <div class="tags"><span class="tag">Java</span><span class="tag">Spring Boot</span><span class="tag">Spring Security</span><span class="tag">JPA</span><span class="tag">Hibernate</span><span class="tag">SQL</span></div>
+    </div>
+    <div class="card">
+      <h3>GastoFlow</h3>
+      <div class="meta">User Interface Development module, Nebrija &middot; 2026</div>
+      <ul>
+        <li>Expense tracking web and mobile app with authentication, dashboard and reports.</li>
+        <li>Git Flow with feature branches and release v1.0.0, CI with GitHub Actions and continuous deployment on Vercel.</li>
+      </ul>
+      <div class="tags"><span class="tag">Angular</span><span class="tag">Ionic</span><span class="tag">TypeScript</span><span class="tag">Supabase</span><span class="tag">GitHub Actions</span><span class="tag">Vercel</span></div>
     </div>
 
-    <footer>Madrid, España</footer>
+    <h2>Skills</h2>
+    <dl class="skills">
+      <dt>Backend</dt><dd>Java, Spring Boot, Spring Security, JPA, Hibernate, JDBC, REST APIs</dd>
+      <dt>Services and processes</dt><dd>Concurrent programming (threads, synchronization), sockets, client-server architecture</dd>
+      <dt>Languages</dt><dd>Java, Kotlin, Python, SQL, TypeScript, JavaScript</dd>
+      <dt>Databases</dt><dd>PostgreSQL, MySQL, MongoDB, Supabase</dd>
+      <dt>Frontend and mobile</dt><dd>Angular, Ionic, React (basic), HTML, CSS</dd>
+      <dt>Tools</dt><dd>Git, GitHub, Git Flow, GitHub Actions, Docker, Vercel, Odoo (ERP)</dd>
+    </dl>
+
+    <h2>Beyond the classroom</h2>
+    <p>On my own I work on <strong>process automation</strong> with Python and n8n: connecting Google Sheets with other tools, integrating AI model APIs and automating repetitive tasks. I'm especially interested in secure software development and DevOps.</p>
+
+    <h2>Languages</h2>
+    <p>Spanish (native) &middot; English (B2, preparing C1)</p>
+
+    <footer>Madrid, Spain</footer>
   </div>
 </body>
 </html>
