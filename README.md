@@ -1,4 +1,4 @@
-<h1 align="center">Hi, I'm Jorge González Gómez 👋</h1>
+<h1 align="center">Jorge González Gómez</h1>
 <p align="center"><b>Backend Java Developer</b> · Spring Boot · Spring Security · REST APIs</p>
 
 <p align="center">
@@ -11,12 +11,17 @@
 
 ### About me
 
-- 🎓 Second-year student of **Multiplatform Application Development (DAM)** at Instituto Nebrija de Formación Profesional, Madrid.
-- ☕ Focused on **backend development with Java**: REST APIs with **Spring Boot**, persistence with **JPA/Hibernate** and security with **Spring Security**.
-- 🧵 Experience with **concurrent programming** (threads, synchronization) and **network communication with sockets**.
-- 🌿 I work with Git like in a real team: feature branches, pull requests with code review and CI with GitHub Actions.
-- 🔐 Interested in **secure software development**, DevOps and process automation.
-- 💼 **Open to internships** (500 hours) starting **February 2027**.
+Second-year student of **Multiplatform Application Development (DAM)** at Instituto Nebrija de Formación Profesional (Madrid), focused on **backend development with Java**.
+
+- REST APIs with **Spring Boot**, persistence with **JPA/Hibernate** and security with **Spring Security**.
+- Concurrent programming (threads, synchronization) and network communication with sockets.
+- Git as in a real team: feature branches, pull requests with code review and CI with GitHub Actions.
+- **Open to internships** (500 hours) starting **February 2027**.
+
+### Education
+
+**Higher Technician in Multiplatform Application Development (DAM)** · Instituto Nebrija de Formación Profesional · 2025 - 2027  
+Second-year modules: Data Access, Services and Process Programming, User Interface Development, Enterprise Management Systems (ERP).
 
 ### Tech stack
 
@@ -52,10 +57,14 @@
 
 | Project | Description | Stack |
 |---|---|---|
-| **Spring Boot REST API** | REST service with CRUD operations, JPA persistence and endpoints secured with Spring Security (authentication and role-based access). | Java · Spring Boot · Spring Security · JPA |
-| **VulnFollowUp** | Team project (3 people): vulnerability tracking platform with a Spring Boot + PostgreSQL backend used by a web client and an Android app. I build the web client and its integration with the REST API. | Spring Boot · PostgreSQL · Angular · Ionic |
-| **GastoFlow** | Expense tracking web and mobile app with authentication, dashboard and reports. Git Flow, CI with GitHub Actions and continuous deployment on Vercel. | Angular · Ionic · TypeScript · Supabase |
+| **VulnFollowUp** | Team project at Nebrija (3 people): vulnerability tracking platform with a Spring Boot + PostgreSQL backend used by a web client and an Android app. I build the web client and its integration with the REST API. | Spring Boot · PostgreSQL · Angular · Ionic |
+| **Spring Boot REST API** | Data Access module (Nebrija): REST service with CRUD operations, JPA persistence and endpoints secured with Spring Security (authentication and role-based access). | Java · Spring Boot · Spring Security · JPA |
+| **GastoFlow** | User Interface Development module (Nebrija): expense tracking web and mobile app with authentication, dashboard and reports. Git Flow, CI with GitHub Actions and deployment on Vercel. | Angular · Ionic · TypeScript · Supabase |
+
+### Beyond the classroom
+
+Process automation with Python and n8n (Google Sheets integrations, AI model APIs). Especially interested in secure software development and DevOps.
 
 ### Languages
 
-🇪🇸 Spanish (native) · 🇬🇧 English (B2, preparing C1)
+Spanish (native) · English (B2, preparing C1)
