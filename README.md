@@ -43,7 +43,7 @@ Second-year modules: Data Access, Services and Process Programming, User Interfa
 ![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat&logo=angular&logoColor=white)
 ![Ionic](https://img.shields.io/badge/Ionic-3880FF?style=flat&logo=ionic&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React_(learning)-20232A?style=flat&logo=react&logoColor=61DAFB)
+![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
 
 **Tools**  
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
@@ -57,7 +57,7 @@ Second-year modules: Data Access, Services and Process Programming, User Interfa
 
 | Project | Description | Stack |
 |---|---|---|
-| **VulnFollowUp** | Team project at Nebrija (3 people): vulnerability tracking platform with a Spring Boot + PostgreSQL backend used by a web client and an Android app. I build the web client and its integration with the REST API. | Spring Boot · PostgreSQL · Angular · Ionic |
+| **VulnFollowUp** | Team project at Nebrija (3 people): vulnerability tracking platform with a Spring Boot + PostgreSQL backend used by a web client and an Android app. I build the React web client and its integration with the REST API. | Spring Boot · PostgreSQL · React · Android |
 | **Spring Boot REST API** | Data Access module (Nebrija): REST service with CRUD operations, JPA persistence and endpoints secured with Spring Security (authentication and role-based access). | Java · Spring Boot · Spring Security · JPA |
 | **GastoFlow** | User Interface Development module (Nebrija): expense tracking web and mobile app with authentication, dashboard and reports. Git Flow, CI with GitHub Actions and deployment on Vercel. | Angular · Ionic · TypeScript · Supabase |
 
